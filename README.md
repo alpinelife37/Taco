@@ -21,7 +21,7 @@ Node based app that starts connects to a database and allows the user to update 
 
    - [Deployed Setup]
 
-7. Click on the following Heroku link to see the deployed version.
+7. Click on the following Heroku link to see the deployed version. https://aqueous-dusk-93036.herokuapp.com/
 
 ### BUILT WITH
 
