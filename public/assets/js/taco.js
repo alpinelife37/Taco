@@ -11,8 +11,7 @@ $(document).ready(function() {
     });
   });
 
-  $("btn btn-danger").on("submit", function(event) {
-    // Make sure to preventDefault on a submit event.
+  $(".create-taco").on("submit", function(event) {
     event.preventDefault();
 
     var newTaco = {
@@ -21,13 +20,10 @@ $(document).ready(function() {
         .trim()
     };
 
-    // Send the POST request.
     $.ajax("/api/tacos", {
       type: "POST",
       data: newTaco
     }).then(function() {
-      // Reload the page to get the updated list
-      console.log("made it");
       location.reload();
     });
   });
