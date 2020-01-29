@@ -12,4 +12,13 @@ body {
 
 p {
   background-color: magenta;
+  margin-top: 16px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
 }

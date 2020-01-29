@@ -10,4 +10,25 @@ $(document).ready(function() {
       location.reload();
     });
   });
+
+  $("btn btn-danger").on("submit", function(event) {
+    // Make sure to preventDefault on a submit event.
+    event.preventDefault();
+
+    var newTaco = {
+      name: $("#taco")
+        .val()
+        .trim()
+    };
+
+    // Send the POST request.
+    $.ajax("/api/tacos", {
+      type: "POST",
+      data: newTaco
+    }).then(function() {
+      // Reload the page to get the updated list
+      console.log("made it");
+      location.reload();
+    });
+  });
 });
