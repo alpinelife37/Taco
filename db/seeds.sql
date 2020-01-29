@@ -1,7 +1,7 @@
-USE taco_db;
+USE tacos_db;
 
 INSERT INTO
-    taco (taco_name, devoured)
+    tacos (taco_name, devoured)
 VALUES
     ("Al Pastor", false),
     ("Asada", false),

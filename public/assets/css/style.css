@@ -1,0 +1,15 @@
+body {
+  background-color: lightgreen;
+}
+
+.card {
+  border: none;
+}
+
+.p-3 {
+  background-color: lightsalmon;
+}
+
+p {
+  background-color: magenta;
+}

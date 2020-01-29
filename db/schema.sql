@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS taco_db;
+DROP DATABASE IF EXISTS tacos_db;
 
-CREATE database taco_db;
+CREATE database tacos_db;
 
-USE taco_db;
+USE tacos_db;
 
 CREATE TABLE tacos (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
