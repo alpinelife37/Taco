@@ -48,7 +48,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 ## Instructions
 
-#### App Setup
+#### App Setup /////////////////////////////////////////////////////DONE!
 
 1. Create a GitHub repo called `burger` and clone it to your computer.
 
@@ -65,7 +65,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 7. Require the following npm packages inside of the server.js file:
    - express
 
-#### DB Setup
+#### DB Setup /////////////////////////////////////////////////////DONE!
 
 1. Inside your `burger` directory, create a folder named `db`.
 
@@ -94,7 +94,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
    - Close out of the MySQL command line tool: `exit`.
 
-#### Config Setup
+#### Config Setup ///////////////////////////////////////////DONE
 
 1. Inside your `burger` directory, create a folder named `config`.
 
@@ -116,7 +116,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
    - Export the ORM object in `module.exports`.
 
-#### Model setup
+#### Model setup ////////////////////////////////////////DONE
 
 - Inside your `burger` directory, create a folder named `models`.
 
@@ -128,7 +128,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
     - Export at the end of the `burger.js` file.
 
-#### Controller setup
+#### Controller setup /////////////////////////////////////////////////DONE
 
 1. Inside your `burger` directory, create a folder named `controllers`.
 
