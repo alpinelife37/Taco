@@ -1,7 +1,9 @@
+USE taco_db;
+
 INSERT INTO
     taco (taco_name, devoured)
 VALUES
-    ("Al Pastor", true),
-    ("Asada", true),
-    ("Barbacoa", true),
-    ("Carnitas", true);
+    ("Al Pastor", false),
+    ("Asada", false),
+    ("Barbacoa", false),
+    ("Carnitas", false);

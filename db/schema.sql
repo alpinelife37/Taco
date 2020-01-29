@@ -1,11 +1,11 @@
-DROP DATABASE IF EXISTS taco_tracker;
+DROP DATABASE IF EXISTS taco_db;
 
-CREATE database taco_tracker;
+CREATE database taco_db;
 
-USE taco_tracker;
+USE taco_db;
 
 CREATE TABLE taco (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    taco_name VARCHAR (30) NOT NULL,
-    devoured BOOLEAN
+    taco_name VARCHAR (50) NOT NULL,
+    devoured BOOLEAN DEFAULT false
 );
