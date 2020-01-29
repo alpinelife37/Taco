@@ -1,0 +1,24 @@
+{
+  "name": "taco",
+  "version": "1.0.0",
+  "description": "Taco Eater",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpinelife37/Taco.git"
+  },
+  "author": "James Nelson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alpinelife37/Taco/issues"
+  },
+  "homepage": "https://github.com/alpinelife37/Taco#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1"
+  }
+}
