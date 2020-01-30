@@ -29,12 +29,4 @@ router.patch("/api/tacos/:id", function(req, res) {
   });
 });
 
-router.delete("/api/tacos/:id", function(req, res) {
-  var condition = "ID = " + req.params.id;
-
-  taco.delete(condition, function(result) {
-    res.status(200).end();
-  });
-});
-
 module.exports = router;
