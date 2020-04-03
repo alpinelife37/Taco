@@ -20,7 +20,7 @@ Node based app that starts connects to a database and allows the user to update 
 5. If successful, the user will see "connected on localhost:3000," and will be able to click on the link to see the app displayed n their default browser.
 6. The user can then add tacos, eat tacos, and cry about tacos before buying more.
 
-   - [Deployed Setup]
+   - [Deployed Setup](https://aqueous-dusk-93036.herokuapp.com/)
 
 7. Click on the following Heroku link to see the deployed version. https://aqueous-dusk-93036.herokuapp.com/
 
